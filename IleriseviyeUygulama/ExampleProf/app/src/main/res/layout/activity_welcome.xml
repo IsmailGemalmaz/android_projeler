@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <ImageButton
+        android:id="@+id/ibBack"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+       android:layout_marginStart="@dimen/small_padding"
+        android:layout_marginTop="@dimen/small_padding"
+        android:background="@drawable/abc_vector_test"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yazilogo"
+        android:layout_above="@+id/llMain"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="16dp" />
+    
+   <FrameLayout
+       android:id="@+id/llMain"
+       android:layout_width="match_parent"
+       android:layout_height="250dp"
+       android:layout_centerInParent="true">
+
+       <LinearLayout
+           android:id="@+id/llWelcome"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+           android:clipToPadding="false"
+           android:orientation="vertical"
+           android:padding="@dimen/medium_padding">
+
+           <Button
+               android:id="@+id/btnWelcomeSignIn"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:background="@drawable/selector_secondary_button"
+                android:text="@string/login_activity_login_text_view"
+               android:textColor="@color/blue_button_texy"
+               android:textSize="@dimen/button_text_size"
+               />
+
+           <LinearLayout
+               android:id="@+id/lineOrText"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginBottom="@dimen/medium_padding"
+               android:layout_marginTop="@dimen/medium_padding"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_weight="1"
+                   android:background="@color/white" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:paddingBottom="@dimen/small_padding"
+                   android:paddingLeft="@dimen/medium_padding"
+                   android:paddingRight="@dimen/medium_padding"
+                   android:text="@string/login_activty_view"
+                   android:fontFamily="sans-serif-medium"
+                   android:textColor="@color/white"
+                   android:textSize="@dimen/textView_text_size" />
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_weight="1"
+                   android:background="@color/white" />
+           </LinearLayout>
+           <Button
+               android:id="@+id/btnWelcomeSignUp"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:background="@drawable/selector_secondary_button"
+               android:text="@string/login_activity_sigin_textview"
+               android:textColor="@color/blue_button_texy"
+               android:textSize="@dimen/button_text_size"
+               />
+
+       </LinearLayout>
+        
+       <LinearLayout
+           android:id="@+id/llSignIn"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+           android:clipToPadding="false"
+           android:orientation="vertical"
+           android:padding="@dimen/medium_padding"
+           android:visibility="gone"
+           >
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/login_activity_signIn_button_text"
+            android:background="@drawable/selector_secondary_button"
+            android:textColor="@color/blue_button_texy"
+
+            />
+           <Button
+               android:id="@+id/btnSignInFacebook"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:text="@string/login_activity_button_facebook_text"
+               android:background="@drawable/selector_secondary_button"
+               android:textColor="@color/facebook_button_text"
+               />
+
+           <Button
+               android:id="@+id/btnSignInGoogle"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:text="@string/login_activity_button_google_text"
+               android:background="@drawable/selector_secondary_button"
+               android:textColor="@color/google_button_text"
+               />
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:id="@+id/llSignUp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+           android:clipToPadding="false"
+           android:orientation="vertical"
+           android:padding="@dimen/medium_padding"
+           android:visibility="gone"
+           >
+
+           <Button
+               android:id="@+id/btnSignUp"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:text="@string/login_activity_signUp_button_text"
+               android:background="@drawable/selector_secondary_button"
+               android:textColor="@color/blue_button_texy"
+
+               />
+           <Button
+               android:id="@+id/btnSignUpFacebook"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:text="@string/login_activity_button_facebook_text"
+               android:background="@drawable/selector_secondary_button"
+               android:textColor="@color/facebook_button_text"
+               />
+
+           <Button
+               android:id="@+id/btnSignUpGoogle"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:text="@string/login_activity_button_google_text"
+               android:background="@drawable/selector_secondary_button"
+               android:textColor="@color/google_button_text"
+               />
+
+
+
+       </LinearLayout>
+
+
+   </FrameLayout>
+
+
+
+</RelativeLayout>

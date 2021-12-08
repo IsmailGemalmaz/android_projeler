@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kripto Param</string>
+    <string name="title_activity_base">MainActivity</string>
+    <string name="title_home"></string>
+    <string name="title_dashboard"></string>
+    <string name="title_settings"></string>
+</resources>

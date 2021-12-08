@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/investment_foregin_currency_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <EditText
+        android:id="@+id/investment_foregin_currency_searchText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Kripto Para Ara"
+        android:paddingLeft="45dp"/>
+</RelativeLayout>

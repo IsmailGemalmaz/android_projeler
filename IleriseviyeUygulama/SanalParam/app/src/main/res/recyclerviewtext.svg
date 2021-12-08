@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="401" height="71" viewBox="0 0 401 71">
+  <defs>
+    <filter id="recyclerviewtext" x="0" y="0" width="401" height="71" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.412"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#recyclerviewtext)">
+    <g id="recyclerviewtext-2" data-name="recyclerviewtext" transform="translate(9 6)" fill="#fff" stroke="#0b7a55" stroke-width="1">
+      <rect width="383" height="53" rx="13" stroke="none"/>
+      <rect x="0.5" y="0.5" width="382" height="52" rx="12.5" fill="none"/>
+    </g>
+  </g>
+</svg>

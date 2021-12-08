@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ExampleProf</string>
+<!-- LoginActivity -->
+    <string name="login_activity_login_text_view">GİRİŞ YAP</string>
+    <string name="login_activty_view">YA DA</string>
+    <string name="login_activity_sigin_textview">ÜYE OL</string>
+
+    <string name="login_activity_signIn_button_text">GİRİŞ YAP</string>
+    <string name="login_activity_button_facebook_text">FACEBOOK</string>
+    <string name="login_activity_button_google_text">GOOGLE</string>
+    <string name="login_activity_signUp_button_text">ÜYE OL</string>
+
+    <string name="login_activity_description">  </string>
+
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "784782323810",
+    "project_id": "share-cbb45",
+    "storage_bucket": "share-cbb45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784782323810:android:590ef89e2f67cf954da13b",
+        "android_client_info": {
+          "package_name": "com.ismailgemalmaz.share"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784782323810-5eq5kt1r09ke3kpsufbftdf9ushkgoih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7G7vQl6WjiKtW2K0XrZJDtN7zo0EkYqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784782323810-5eq5kt1r09ke3kpsufbftdf9ushkgoih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

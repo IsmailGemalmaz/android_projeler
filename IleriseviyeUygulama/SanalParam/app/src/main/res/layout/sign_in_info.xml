@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+   >
+
+
+<Button
+    android:id="@+id/btnBackScreen"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:background="@drawable/abc_vector_test"
+    android:layout_marginStart="370dp"
+    android:layout_marginTop="10dp"
+    />
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sekiliki"
+    />
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/yazilogo"
+       android:layout_marginStart="20dp"
+       android:layout_marginTop="200dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G İ R İ Ş  Y A P"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="290dp"
+        android:layout_marginStart="80dp"
+        android:textColor="#7279969E"/>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_login_layout"
+        android:text="GİRİŞ YAP"
+        android:textSize="20sp"
+        android:textColor="@color/teal_700"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="27dp"
+        />
+
+    <Button
+        android:id="@+id/btnFacebookSignIn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_login_layout"
+        android:text="FACEBOOK"
+        android:textSize="20sp"
+        android:textColor="@color/purple_700"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="460dp"
+        android:layout_marginStart="27dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnSignInGoogle"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_login_layout"
+        android:text="Google"
+        android:textSize="20sp"
+        android:textColor="#F44336"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="27dp"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sekil"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

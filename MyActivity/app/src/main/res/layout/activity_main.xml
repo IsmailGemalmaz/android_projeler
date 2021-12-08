@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textReadName"
+        android:layout_width="290dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="65dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textWriteName" />
+
+    <EditText
+        android:id="@+id/textWriteName"
+        android:layout_width="409dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="46dp"
+        android:ems="10"
+        android:hint="isim gir"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textReadView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSave"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="237dp"
+        android:text="KAYDET"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnIntent"
+        app:layout_constraintTop_toBottomOf="@+id/textReadView" />
+
+    <Button
+        android:id="@+id/btnIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="14dp"
+        android:text="INTENT"
+        app:layout_constraintEnd_toStartOf="@+id/btnSave"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnSave" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

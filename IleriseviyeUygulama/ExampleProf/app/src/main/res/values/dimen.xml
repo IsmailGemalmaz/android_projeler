@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BUtton Text Size-->
+    <dimen name="button_text_size">20sp</dimen>
+
+    <!-- TextView Text Size-->
+    <dimen name="textView_text_size">15sp</dimen>
+
+    <!-- Margin, paddings -->
+    <dimen name="smallest_padding">2dp</dimen>
+    <dimen name="very_small_padding">4dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="medium_padding">16dp</dimen>
+    <dimen name="large_padding">32dp</dimen>
+    <dimen name="very_large_padding">48dp</dimen>
+    <dimen name="huge_padding">64dp</dimen>
+
+</resources>

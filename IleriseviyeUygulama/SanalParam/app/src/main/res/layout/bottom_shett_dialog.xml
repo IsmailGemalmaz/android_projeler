@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/dialog_linear_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="30dp"
+    android:layout_marginStart="30dp"
+    android:orientation="vertical"
+    >
+
+
+        <Button
+
+            android:id="@+id/Buying"
+            android:text="SATIN AL"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_dialog_button"
+            android:layout_marginBottom="1dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/Details"
+            android:text="DETAYLAR"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_dialog_button"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"/>
+        <Button
+            android:id="@+id/Close"
+            android:text="İPTAL"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/close_btn"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"/>
+
+</LinearLayout>

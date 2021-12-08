@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <style name="ActivtyStyle" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <style name="BottmDialog" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottmStyle</item>
+    </style>
+    
+    <style name="BottmStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="background">@android:color/transparent</item>
+    </style>
+</resources>

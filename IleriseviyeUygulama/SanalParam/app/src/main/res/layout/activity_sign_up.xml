@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yazilogo"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ü Y E  O L"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="40sp"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="125dp"
+        android:textColor="#A0BAC1"/>
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/profilphoto"
+      android:layout_marginStart="60dp"
+      android:layout_marginTop="200dp"
+      />
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_kripto_list_item_layout"
+        android:layout_marginTop="395dp"
+        android:textSize="15sp"
+        android:hint="isim ve soyisminizi girniz"
+        android:paddingStart="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginStart="27dp"/>
+
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_kripto_list_item_layout"
+        android:layout_marginTop="445dp"
+        android:textSize="15sp"
+        android:hint="e-mail giriniz"
+        android:paddingStart="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginStart="27dp"/>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_kripto_list_item_layout"
+        android:layout_marginTop="495dp"
+        android:textSize="15sp"
+        android:hint="şifrenizi girniz"
+        android:paddingStart="20dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginStart="27dp"/>
+
+    <EditText
+        android:id="@+id/txtTryPassword"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_kripto_list_item_layout"
+        android:layout_marginTop="545dp"
+        android:textSize="15sp"
+        android:hint="şifrenizi tekrar giriniz"
+        android:paddingStart="20dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginStart="27dp"/>
+
+    <Button
+        android:id="@+id/btnSignUpAc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="75dp"
+        android:background="@drawable/button_login_layout"
+        android:text="ÜYE OL"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="25sp"
+        android:textColor="#6B9A9A"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sekil"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CryptoMoneyInfo">
+
+    <LinearLayout
+        android:id="@+id/investment_person_info"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="55dp"
+        android:background="@color/screen"
+        android:orientation="vertical">
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/graph"/>
+
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/activit_info_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/screen"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        />
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="302dp"
+        android:background="@color/gray"
+
+        />
+
+    <ImageView
+        android:id="@+id/cryptoInfoImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/image_background_layout" />
+
+    <TextView
+        android:id="@+id/cryptoInfoCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="Currency"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="364dp"
+        android:layout_marginStart="60dp"
+        />
+
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"
+            android:layout_marginTop="410dp"/>
+
+    <TextView
+        android:id="@+id/cryptoInfoPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Price"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="427dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginTop="470dp"/>
+
+    <TextView
+        android:id="@+id/cryptoInfoPriceHigh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="High Price"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="487dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginTop="530dp"/>
+
+    <TextView
+        android:id="@+id/cryptoMarketCap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Market Cap"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="547dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginTop="590dp"/>
+
+    <TextView
+        android:id="@+id/cryptoCirculatinSupply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Circulating Supply"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="607dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginTop="650dp"/>
+
+    <TextView
+        android:id="@+id/cryptoMaxSupply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Max Supply"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="667dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginTop="710dp"/>
+
+    <TextView
+        android:id="@+id/cryptoVolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Volume"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="727dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginTop="770dp"/>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="100dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:background="@drawable/bottom_dialog_button"
+        android:text="SATIN AL" />
+
+
+</RelativeLayout>
